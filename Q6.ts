@@ -14,6 +14,5 @@ function countUniqueVowels(sentence: string): number {
     return foundVowels.size;
 }
 
-// Test cases
 console.log(countUniqueVowels("Hello world"));
 console.log(countUniqueVowels(" onyuka peter paul ")); 

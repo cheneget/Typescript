@@ -8,5 +8,5 @@ var isPowerOfTwo = function (num) {
         return false;
     return (num & (num - 1)) === 0;
 };
-console.log(isPowerOfTwo(8)); // true
-console.log(isPowerOfTwo(6)); // false
+console.log(isPowerOfTwo(8)); 
+console.log(isPowerOfTwo(6)); 

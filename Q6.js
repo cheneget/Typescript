@@ -1,11 +1,6 @@
-/*Question 5: Reverse Integer
-Write a program that takes an integer as input and returns an integer with reversed digit 
-ordering.
-Examples:
-For input 500, the program should return 5.
-For input -56, the program should return -65.
-For input -90, the program should return -9.
-For input 91, the program should return 19. */
+/*Question 6: Count Vowels
+Write a program that counts the number of vowels in a sentence.
+eg " Hello World " => returns 2*/
 function countUniqueVowels(sentence) {
     var vowels = 'aeiouAEIOU';
     var foundVowels = new Set();
@@ -17,6 +12,5 @@ function countUniqueVowels(sentence) {
     }
     return foundVowels.size;
 }
-// Test cases
 console.log(countUniqueVowels("Hello world"));
 console.log(countUniqueVowels(" onyuka peter paul "));
